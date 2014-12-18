@@ -13,8 +13,8 @@ Requirements :
   
   This is basically a CLI script. Following are the ways you can call it in your terminal :
    1 $python ./webcamPyc.py  
-    this will take one .jpg picture.
+     will take one .jpg picture.
    2 $python ./webcamPyc.py 50 -gif 
-    this will take a series of 50 .jpg and process them into an animated gif
+     will take a series of 50 .jpg and process them into an animated gif
    3 $python ./webcamPyc.py 50 -gif -clean 
-    this will take a series of 50 .jpg, make an animated gif out of it and delete the .jpg files.
+     will take a series of 50 .jpg, make an animated gif out of it and delete the .jpg files.

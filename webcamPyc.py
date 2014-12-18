@@ -55,7 +55,6 @@ def makeGif(name):
 """ Removes all .jpg in ./ if -clean arg given by CLI"""
 def cleanJpg():
     ext = ('.jpg')
-    directory = os.getcwd()
     for currentFile in os.listdir('.'):
         if currentFile.endswith(ext):
             os.remove(currentFile)
